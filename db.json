@@ -1,0 +1,124 @@
+{
+    "shoes": [
+        {
+            "id": "1",
+            "title": "Men's Running Shoes",
+            "brand": "Nike",
+            "price": 99.99,
+            "description": "These men's running shoes are designed for ultimate comfort and performance. With breathable mesh upper and responsive cushioning, they'll help you go the distance.",
+            "image_url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": "2",
+            "title": "Women's High Heels",
+            "brand": "Steve Madden",
+            "price": 129.99,
+            "description": "Make a statement with these elegant women's high heels from Steve Madden. Perfect for a night out or special occasion, they'll add a touch of glamour to any outfit.",
+            "image_url": "https://images.unsplash.com/photo-1601924638867-3a6de6b7a500?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": "3",
+            "title": "Kids' Soccer Cleats",
+            "brand": "Puma",
+            "price": 49.99,
+            "description": "Let your little soccer star shine on the field with these kids' soccer cleats from Puma. With durable construction and comfortable fit, they'll be scoring goals in no time.",
+            "image_url": "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=1779&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": "4",
+            "title": "Men's Casual Sneakers",
+            "brand": "Vans",
+            "price": 59.99,
+            "description": "Step up your style game with these classic men's casual sneakers from Vans. Whether you're skating or just hanging out, they'll keep you looking cool and feeling comfortable.",
+            "image_url": "https://images.unsplash.com/photo-1449505278894-297fdb3edbc1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": "5",
+            "title": "Women's Training Shoes",
+            "brand": "Adidas",
+            "price": 79.99,
+            "description": "Get ready for your workout with these women's training shoes from Adidas. Featuring a lightweight design and flexible sole, they're perfect for all your gym sessions.",
+            "image_url": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 6,
+            "title": "Unisex Skate Shoes",
+            "brand": "Converse",
+            "price": 69.99,
+            "description": "Join the skateboarding trend with these versatile unisex skate shoes from Converse. With durable canvas upper and grippy rubber sole, they're ready for any trick or terrain.",
+            "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Leanne Graham",
+            "username": "Bret",
+            "email": "Sincere@april.biz",
+            "phone": "1-770-736-8031 x56442"
+        },
+        {
+            "id": 2,
+            "name": "Ervin Howell",
+            "username": "Antonette",
+            "email": "Shanna@melissa.tv",
+            "phone": "010-692-6593 x09125"
+        },
+        {
+            "id": 3,
+            "name": "Clementine Bauch",
+            "username": "Samantha",
+            "email": "Nathan@yesenia.net",
+            "phone": "1-463-123-4447"
+        },
+        {
+            "id": 4,
+            "name": "Patricia Lebsack",
+            "username": "Karianne",
+            "email": "Julianne.OConner@kory.org",
+            "phone": "493-170-9623 x156"
+        },
+        {
+            "id": 5,
+            "name": "Chelsey Dietrich",
+            "username": "Kamren",
+            "email": "Lucio_Hettinger@annie.ca",
+            "phone": "(254)954-1289"
+        },
+        {
+            "id": 6,
+            "name": "Mrs. Dennis Schulist",
+            "username": "Leopoldo_Corkery",
+            "email": "Karley_Dach@jasper.info",
+            "phone": "1-477-935-8478 x6430"
+        },
+        {
+            "id": 7,
+            "name": "Kurtis Weissnat",
+            "username": "Elwyn.Skiles",
+            "email": "Telly.Hoeger@billy.biz",
+            "phone": "210.067.6132"
+        },
+        {
+            "id": 8,
+            "name": "Nicholas Runolfsdottir V",
+            "username": "Maxime_Nienow",
+            "email": "Sherwood@rosamond.me",
+            "phone": "586.493.6943 x140"
+        },
+        {
+            "id": 9,
+            "name": "Glenna Reichert",
+            "username": "Delphine",
+            "email": "Chaim_McDermott@dana.io",
+            "phone": "(775)976-6794 x41206"
+        },
+        {
+            "id": 10,
+            "name": "Clementina DuBuque",
+            "username": "Moriah.Stanton",
+            "email": "Rey.Padberg@karina.biz",
+            "phone": "024-648-3804"
+        }
+    ]
+}
