@@ -69,7 +69,7 @@ const Register = () => {
                         )}
                     </div>
                     <div className="form-control mt-6">
-                        <button type="submit" className="btn btn-secondary text-white">Register</button>
+                        <button type="submit" className="btn btn-secondary hover:bg-[#8c1771] text-white">Register</button>
                     </div>
                     <div className="flex items-center justify-center">
                         <small>Already a Member?</small>

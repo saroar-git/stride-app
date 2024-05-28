@@ -11,6 +11,7 @@ import PrivateRoute from "./PrivateRoute";
 import ProductDetail from "../pages/ProductDetail";
 import AllProducts from "../pages/AllProducts";
 import { Navigate } from "react-router-dom";
+import AddProduct from "../pages/AddProduct";
 
 export const router = createBrowserRouter([
     {
@@ -39,6 +40,7 @@ export const router = createBrowserRouter([
             { index:true, element: <PrivateRoute><Navigate to='admin'/></PrivateRoute> },
             { path: 'admin', element: <PrivateRoute><Dashboard /></PrivateRoute> },
             { path: 'all-products', element: <PrivateRoute><AllProducts /></PrivateRoute> },
+            { path: 'add-products', element: <PrivateRoute><AddProduct /></PrivateRoute> },
 
         ]
     }

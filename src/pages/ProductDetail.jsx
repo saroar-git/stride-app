@@ -23,7 +23,7 @@ const shoeDetail = () => {
                         <div className="badge badge-outline my-2 font-bold">${shoe.price}</div>
                         <p className="text.sm text-justify">{shoe.description}</p>
                         <div className="card-actions justify-end mt-4">
-                            <div className="btn btn-secondary">
+                            <div className="btn btn-secondary hover:bg-[#8c1771]">
                                 <Link to={`/buy/${shoe.id}`}>Buy Now</Link>
                             </div>
                         </div>

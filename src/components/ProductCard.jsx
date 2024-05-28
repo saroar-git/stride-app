@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
                 <div className="badge badge-outline my-2 font-bold">${product.price}</div>
                 <p className="text.sm text-justify">{product.description.length > 100 ? product.description.slice(0, 100) : product.description}..</p>
                 <div className="card-actions justify-end mt-4">
-                    <div className="btn btn-secondary">
+                    <div className="btn btn-secondary hover:bg-[#8c1771]">
                         <Link to={`/products/${product.id}`}>See Details</Link>
                     </div>
                 </div>

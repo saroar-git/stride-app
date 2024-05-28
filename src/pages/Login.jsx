@@ -47,7 +47,7 @@ const Login = () => {
                         </label>
                     </div>
                     <div className="form-control my-3">
-                        <button type="submit" className="btn btn-secondary text-white">Login</button>
+                        <button type="submit" className="btn btn-secondary hover:bg-[#8c1771] text-white">Login</button>
                     </div>
                     <div><GoogleLogin /></div>
 

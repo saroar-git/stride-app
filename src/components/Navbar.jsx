@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className="navbar-end gap-2">
                 {user ?
                     <>
-                        <button onClick={handleLogout} className="btn btn-secondary text-white">Logout</button>
+                        <button onClick={handleLogout} className="btn btn-secondary hover:bg-[#8c1771] text-white">Logout</button>
                         <div className="avatar">
                             <div className="w-10 rounded-full">
                                 <img src={user?.photoURL || "/public/placeholder.jpg"} /> :
@@ -42,7 +42,7 @@ const Navbar = () => {
                         </div>
                     </>
                     :
-                    <p className="btn btn-secondary text-white"> <Link to='/login'>Login</Link></p>
+                    <p className="btn btn-secondary hover:bg-[#8c1771] text-white"> <Link to='/login'>Login</Link></p>
                 }
             </div>
         </div>
