@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Men's Running",
       "brand": "Nike",
-      "price": 99.99,
+      "price": 89.99,
       "description": "These men's running shoes are designed for ultimate comfort and performance. With breathable mesh upper and responsive cushioning, they'll help you go the distance.",
       "image_url": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -12,7 +12,7 @@
       "id": "2",
       "title": "Women's High Heels",
       "brand": "Steve Madden",
-      "price": 129.99,
+      "price": 109.99,
       "description": "Make a statement with these elegant women's high heels from Steve Madden. Perfect for a night out or special occasion, they'll add a touch of glamour to any outfit.",
       "image_url": "https://images.unsplash.com/photo-1601924638867-3a6de6b7a500?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -36,7 +36,7 @@
       "id": "5",
       "title": "Women's Training",
       "brand": "Adidas",
-      "price": "69",
+      "price": 69.99,
       "description": "Get ready for your workout with these women's training shoes from Adidas. Featuring a lightweight design and flexible sole, they're perfect for all your gym sessions.",
       "image_url": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?q=80&w=2031&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -44,7 +44,7 @@
       "id": "6",
       "title": "Unisex Running",
       "brand": "Converse",
-      "price": "59",
+      "price": 59.99,
       "description": "Join the skateboarding trend with these versatile unisex skate shoes from Converse. With durable canvas upper and grippy rubber sole, they're ready for any trick or terrain.",
       "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
@@ -52,7 +52,7 @@
       "id": "7",
       "title": "Jogging Pro",
       "brand": "WoodLand",
-      "price": "89",
+      "price": 89.99,
       "description": "Join the skateboarding trend with these versatile unisex skate shoes from Converse. With durable canvas upper and grippy rubber sole, they're ready for any trick or terrain.",
       "image_url": "https://img.freepik.com/free-photo/sports-shoe-pair-design-illustration-generated-by-ai_188544-19642.jpg?t=st=1716879079~exp=1716882679~hmac=ac13166163f1a8a7981b8c9607e6693cd6f111f8edcfa4dcbdb93765cae3e7ed&w=1060"
     }

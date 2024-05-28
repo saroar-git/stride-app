@@ -1,7 +1,6 @@
 import toast from "react-hot-toast";
 
 const AddProduct = () => {
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         const form = e.target;
@@ -13,7 +12,6 @@ const AddProduct = () => {
         const image_url = form.image_url.value;
 
         const data = { id, title, brand, price, description, image_url };
-        console.log(data);
 
         await fetch('http://localhost:3000/shoes', {
             method: 'POST',
@@ -27,7 +25,6 @@ const AddProduct = () => {
                 toast.success(`${title} shoe has been added successfully.`)
                 form.reset()
             });
-
     };
 
     return (
@@ -49,7 +46,7 @@ const AddProduct = () => {
                         <input className="bg-gray-100 p-4 w-full border border-black rounded-lg mb-2" type="text" name="price" placeholder="Price" />
                     </div>
                     <div>
-                        <input className="bg-gray-100 p-4 w-full border border-black rounded-lg mb-2" type="text" name="description" placeholder="Description" />
+                        <textarea className="bg-gray-100 p-4 w-full border border-black rounded-lg mb-2" type="text" name="description" placeholder="Description" />
                     </div>
                     <div>
                         <input className="bg-gray-100 p-4 w-full border border-black rounded-lg mb-4" type="text" name="image_url" placeholder="Image URL" />

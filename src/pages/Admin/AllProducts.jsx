@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import SingleProduct from "../components/dashboard/SingleProduct";
+import SingleProduct from "../../components/dashboard/SingleProduct";
 
 const AllProducts = () => {
     const [products, setProducts] = useState([]);

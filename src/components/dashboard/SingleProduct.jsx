@@ -12,6 +12,7 @@ const SingleProduct = ({ product, onDelete }) => {
                 onDelete(id)
             })
     }
+    
     return (
         <div className="card max-w-96 bg-base-100 shadow-xl">
             <figure className="h-64 overflow-hidden">
@@ -30,8 +31,8 @@ const SingleProduct = ({ product, onDelete }) => {
                 <p className="text.sm text-justify">{product.description.length > 100 ? product.description.slice(0, 100) : product.description}..</p>
                 <div className="card-actions justify-end mt-4">
                     <div className="flex items-center gap-1">
-                        <Link className="btn text-sm text-white bg-indigo-500 hover:bg-indigo-700" to={`/products/${product.id}`}>Detail</Link>
-                        <button className="btn text-sm text-white bg-green-500 hover:bg-green-700">Edit</button>
+                        <Link className="btn text-sm text-white bg-indigo-500 hover:bg-indigo-700" to={`/products/${product.id}`}>Details</Link>
+                        <Link to={`/dashboard/edit-product/${product.id}`} className="btn text-sm text-white bg-green-500 hover:bg-green-700">Edit</Link>
                         <button onClick={() => handleDelete(product.id)} className="btn text-sm text-white bg-red-500 hover:bg-red-700">Delete</button>
                     </div>
                 </div>
